@@ -15,9 +15,10 @@ class DisplayMessages extends React.Component {
 
   submitMessage(event) {
     event.preventDefault();
-   this.setState({   
-    messages: [...this.state.messages , this.state.input]    ,input: ''
-              });  
+   this.setState ({   
+    messages: [...this.state.messages , this.state.input],    
+    input: ''
+    });  
   }
 
   render() {
